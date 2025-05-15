@@ -1,5 +1,7 @@
 {
+  "predeploy": "npm run build",
   "name": "lab18",
+  "deploy": "gh-pages -d build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
